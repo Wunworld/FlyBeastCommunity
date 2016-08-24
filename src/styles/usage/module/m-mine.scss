@@ -1,0 +1,44 @@
+section.my{
+  width:100%;
+  height:1rem!important;
+  margin-top: 0!important;
+  background: #fff;
+  div{
+    width:100%;
+    height:1rem;
+    line-height: 1rem;
+    text-align: center;
+    i{
+      width:100%;
+      height:100%;
+      font-size: .8rem;
+      color:#F5F5F5;
+    }
+  }
+}
+aside{
+  width:100%;
+  @include flexbox();
+  @include flex-direction(column);
+  @include align-items(center);
+  p{
+    padding:.5rem 0 .5rem 0;
+    color:#666;
+    font-size: .08rem;
+  }
+  button{
+    width:1.3rem;
+    height:.38rem;
+    background: none;
+    border: none;
+    color:#fff;
+    font-size: .14rem;
+    margin-bottom: .2rem;
+    &.register{
+      background: #FF6347;
+    }
+    &.login{
+      background:#FBB82F;
+    }
+  }
+}

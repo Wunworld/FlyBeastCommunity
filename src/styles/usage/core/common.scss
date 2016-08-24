@@ -1,11 +1,28 @@
-$base-color: #0dc441;
+$base-color: #333333;
+$bsCoActv:#FFBA0F;
 
 @font-face {
   font-family: yofont;
-  src: url("/doudoutemai/images/iconfont/iconfont.woff") format("woff"), url("/doudoutemai/images/iconfont/iconfont.ttf") format("truetype");
+  src: url("/FlyBeastCommunity/images/iconfont/iconfont.woff") format("woff"), url("/FlyBeastCommunity/images/iconfont/iconfont.ttf") format("truetype");
 }
 
 @font-face {
   font-family: yofont;
-  src: url("/doudoutemai/images/iconfont/iconfont-menu.woff") format("woff"), url("/doudoutemai/images/iconfont/iconfont-menu.ttf") format("truetype");
+  src: url("/FlyBeastCommunity/images/iconfont/iconfont-menu.woff") format("woff"), url("/FlyBeastCommunity/images/iconfont/iconfont-menu.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/FlyBeastCommunity/images/iconfont/iconfont-a.woff") format("woff"), url("/FlyBeastCommunity/images/iconfont/iconfont-a.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/FlyBeastCommunity/images/iconfont/iconfont_b.woff") format("woff"), url("/FlyBeastCommunity/images/iconfont/iconfont_b.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/FlyBeastCommunity/images/iconfont/iconfont-c.woff") format("woff"), url("/FlyBeastCommunity/images/iconfont/iconfont-c.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/FlyBeastCommunity/images/iconfont/iconfont-d.woff") format("woff"), url("/FlyBeastCommunity/images/iconfont/iconfont-d.ttf") format("truetype");
 }

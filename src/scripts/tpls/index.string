@@ -1,6 +1,25 @@
 <div class="m-index">
-  <header>111</header>
-  <nav>1122</nav>
-  <section>333</section>
-  <footer>444</footer>
+
+  <div id="m-container"></div>
+
+  <footer>
+    <ul id="index-nav">
+      <li class="active" action-type='switch' data-name="information">
+        <i class="yo-ico">&#xe601;</i>
+        <b>资讯</b>
+      </li>
+      <li action-type='switch' data-name="community">
+        <i class="yo-ico">&#xe618;</i>
+        <b>社区</b>
+      </li>
+      <li action-type='switch' data-name="discovery">
+        <i class="yo-ico">&#xe608;</i>
+        <b>发现</b>
+      </li>
+      <li action-type='switch' data-name="mine">
+        <i class="yo-ico">&#xe614;</i>
+        <b>我的</b>
+      </li>
+    </ul>
+  </footer>
 </div>

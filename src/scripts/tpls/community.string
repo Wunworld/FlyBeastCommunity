@@ -1,0 +1,160 @@
+<header>
+    <h3>社区</h3>
+    <i class="yo-ico">&#xe60b;</i>
+</header>
+
+<section id="myScroll2">
+    <div class="sideContent">
+        <form class="yo-search">
+            <label class="operation">
+                <span class="yo-ico">&#xf067;</span><input type="text" class="input" placeholder="搜用户，文章或帖子" />
+            </label>
+        </form>
+        <!--lun bo-->
+        <section class="com">
+            <div class="switchable swiper-container">
+                <ul class="cont">
+                    <li class="item">
+                        <img class="img" src="/FlyBeastCommunity/images/banner.jpg" alt="" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <aside class="change">
+            <ul>
+                <li>
+                    <i class="yo-ico">&#xe696;</i>
+                    <b>炫航拍</b>
+                </li>
+                <li>
+                    <i class="yo-ico">&#xe60d;</i>
+                    <b>问大神</b>
+                </li>
+                <li>
+                    <i class="yo-ico">&#xe618;</i>
+                    <b>飞友说</b>
+                </li>
+                <li>
+                    <i class="yo-ico">&#xe60a;</i>
+                    <b>修装备</b>
+                </li>
+            </ul>
+        </aside>
+        <aside class="cont">
+            <ul class="list">
+                <li class="listLi0">
+                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
+                    <span>美景海岛-泰国</span>
+                </li>
+                <li class="listLi1">
+                    <span>美景海岛-岛-岛-岛-泰国</span>
+                </li>
+                <li class="listLi2">
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                </li>
+                <li class="listLi3">
+                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
+                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
+                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="listLi0">
+                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
+                    <span>美景海岛-泰国</span>
+                </li>
+                <li class="listLi1">
+                    <span>美景海岛-岛-岛-岛-泰国</span>
+                </li>
+                <li class="listLi2">
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                </li>
+                <li class="listLi3">
+                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
+                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
+                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="listLi0">
+                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
+                    <span>美景海岛-泰国</span>
+                </li>
+                <li class="listLi1">
+                    <span>美景海岛-岛-岛-岛-泰国</span>
+                </li>
+                <li class="listLi2">
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                </li>
+                <li class="listLi3">
+                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
+                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
+                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="listLi0">
+                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
+                    <span>美景海岛-泰国</span>
+                </li>
+                <li class="listLi1">
+                    <span>美景海岛-岛-岛-岛-泰国</span>
+                </li>
+                <li class="listLi2">
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                </li>
+                <li class="listLi3">
+                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
+                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
+                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="listLi0">
+                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
+                    <span>美景海岛-泰国</span>
+                </li>
+                <li class="listLi1">
+                    <span>美景海岛-岛-岛-岛-泰国</span>
+                </li>
+                <li class="listLi2">
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                </li>
+                <li class="listLi3">
+                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
+                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
+                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="listLi0">
+                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
+                    <span>美景海岛-泰国</span>
+                </li>
+                <li class="listLi1">
+                    <span>美景海岛-岛-岛-岛-泰国</span>
+                </li>
+                <li class="listLi2">
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                </li>
+                <li class="listLi3">
+                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
+                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
+                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
+                </li>
+            </ul>
+        </aside>
+    </div>
+</section>

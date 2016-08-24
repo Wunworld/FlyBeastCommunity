@@ -1,0 +1,13 @@
+<header>
+    <h3>我的</h3>
+</header>
+<section class="my">
+    <div>
+        <i class="yo-ico">&#xe607;</i>
+    </div>
+</section>
+<aside>
+    <p>登录后，你的消息与帖子等将在显示在这里</p>
+    <button class="register">登录</button>
+    <button class="login">注册</button>
+</aside>

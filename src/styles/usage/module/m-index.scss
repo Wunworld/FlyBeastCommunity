@@ -3,64 +3,173 @@
   height: 100%;
   @include flexbox();
   @include flex-direction(column);
-  header {
-    height: .44rem;
-    @include flexbox();
-    background: $base-color;
-    i {
-      width: .44rem;
-      text-align: center;
-      line-height: .44rem;
-      font-size: .22rem;
-      color: rgba(255, 255, 255, 0.8);
-    }
-    ul {
-      @include flex();
-      @include flexbox();
-      @include align-items(center);
-      @include justify-content(center);
-      li {
-        width: .59rem;
-        height: .25rem;
-        text-align: center;
-        line-height: .25rem;
-        font-size: .12rem;
-        background: rgba(100, 217, 133, 0.7);
-        color: rgba(255, 255, 255, 0.7);
-        &:first-child {
-          border-radius: .1rem 0 0 .1rem;
-        }
-        &:last-child {
-          border-radius: 0 .1rem .1rem 0;
-        }
-        &.active {
-          background: #64d985;
-          color: #fff;
+  background:#F5F5F5;
+  #m-container{
+    width:100%;
+    height:100%;
+    //@include flex();
+    position: relative;
+    header {
+      height: .44rem;
+      background: $base-color;
+      ul{
+        width:100%;
+        height:100%;
+        @include flexbox();
+        @include flex-direction(row);
+        @include justify-content(space-around);
+        li{
+          height:100%;
+          text-align: center;
+          line-height: .44rem;
+          color:#A9A9A9;
+          &.active {
+            color: $bsCoActv;
+          }
         }
       }
     }
-  }
-  nav {
-    height: .35rem;
-    ul {
-      width: 100%;
-      height: 100%;
-      @include flexbox();
-      li {
-        @include flex(1);
-        color: #666;
-        @include border(0 0 1px 0, #d9d9d9);
+
+    section{
+      height:100%;
+      width:100%;
+      overflow:hidden;
+      //margin-top:.08rem;
+      div.sideCon{
+        form {
+          height: .28rem;
+          width:100%;
+          //margin-top:.08rem;
+          @include flexbox();
+          @include flex-direction(row);
+          @include justify-content(space-around);
+          label{
+            width:95%;
+            span{
+              display: inline-block;
+              width:10%;
+              height:.28rem;
+              line-height: .35rem;
+              text-align: center;
+              font-size: .16rem;
+              background: #fff;
+              border-radius: .05rem 0 0 .05rem;
+              @include transform(translateY(-.0128rem));
+            }
+            input{
+              height:.28rem;
+              width:90%;
+              border:none;
+              border-radius: 0 .05rem  .05rem 0;
+            }
+          }
+        }
+        .switchable{
+          margin-top:.08rem;
+          height:1.5rem;
+          width:100%;
+          .cont{
+            width:100%;
+            height:1.5rem;
+            overflow: hidden;
+            .item{
+              width:100%;
+              height:100%;
+              overflow: hidden;
+              img{
+                width:100%;
+                height:100%;
+              }
+            }
+          }
+        }
+        article {
+          display: block;
+          width: 100% !important;
+          @include flex(1);
+          ul{
+            margin-top: .05rem;
+            background: #fff;
+            width:100%;
+            li{
+              height:1.12rem;
+              @include flexbox();
+              @include flex-direction(row);
+              @include justify-content(space-around);
+              div:nth-child(1){
+                width:30%;
+                height:100%;
+                line-height: 1.1rem;
+                img{
+                  width:100%;
+                  height:1rem;
+                }
+              }
+              div:nth-child(2){
+                width:60%;
+                @include flexbox();
+                @include flex-direction(column);
+                @include justify-content(space-between);
+                h3{
+                  font-size: .01rem;
+                  color:#303030;
+                }
+                div{
+                  width:100%;
+                  display: inline-block;
+                  @include flexbox();
+                  @include flex-direction(row);
+                  @include justify-content(space-between);
+                  p{
+                    display: inline-block;
+                    font-size: .008rem;
+                    color:#A7A7A7;
+                  }
+                  i{
+                    font-size: .008rem;
+                    color:#A7A7A7;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
-      li.active {
-        color: $base-color;
-      }
+
     }
   }
-  section {
-    @include flex(1);
-    width: 100%;
-  }
+
+
   footer {
-    height: .44rem;
+    height: .5rem;
+    ul{
+      width:100%;
+      height:100%;
+      @include flexbox();
+      @include border(1px 0 0 0 #F3F3F3);
+      background:#fff;
+      li{
+        @include flex();
+        @include flexbox();
+        @include flex-direction(column);
+        &.active b,
+        &.active i {
+          color: $bsCoActv;
+        }
+        b,i{
+          display: block;
+          text-align: center;
+        }
+        b{
+          font-size: .008rem;
+          font-weight: 100;
+          color:#BEBEBE;
+        }
+        i{
+          color:#BEBEBE;
+          font-size: .2rem;
+        }
+      }
+    }
   }
 }

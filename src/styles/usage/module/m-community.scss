@@ -1,0 +1,161 @@
+header{
+  width:100%;
+  height:.44rem;
+  @include flexbox();
+  @include justify-content(space-around);
+  h3{
+    width:92%;
+    height:100%;
+    color:#fff;
+    text-align: center;
+    line-height: .44rem;
+    font-weight: 200;
+  }
+  i{
+    width:8%;
+    height:100%;
+    color:#fff;
+    font-size: .18rem;
+    line-height: .44rem;
+  }
+}
+form {
+  height: .28rem;
+  width:100%;
+  margin-top:.08rem;
+  @include flexbox();
+  @include flex-direction(row);
+  @include justify-content(space-around);
+  label{
+    width:95%;
+    span{
+      display: inline-block;
+      width:10%;
+      height:.28rem;
+      line-height: .35rem;
+      text-align: center;
+      font-size: .16rem;
+      background: #fff;
+      border-radius: .05rem 0 0 .05rem;
+      @include transform(translateY(-.0128rem));
+    }
+    input{
+      height:.28rem;
+      width:90%;
+      border:none;
+      border-radius: 0 .05rem  .05rem 0;
+    }
+  }
+}
+section.com{
+  margin-top:.08rem;
+  height:1.5rem!important;
+  width:100%;
+  .cont{
+    width:100%;
+    height:1.5rem;
+    overflow: hidden;
+    .item{
+      width:100%;
+      height:100%;
+      overflow: hidden;
+      img{
+        width:100%;
+        height:100%;
+      }
+    }
+  }
+}
+aside.change{
+  width:100%;
+  height:.9rem;
+  background:#fff;
+  margin-top:.03rem;
+  ul{
+    width:100%;
+    height:100%;
+    @include flexbox();
+    @include justify-content(space-around);
+    li{
+      @include flexbox();
+      @include flex-direction(column);
+      i{
+        font-size: .24rem;
+        color:$bsCoActv;
+        text-align: center;
+      }
+      b{
+        font-size: .06rem;
+        color:#717171;
+        font-weight: 100;
+      }
+    }
+  }
+}
+aside.cont{
+  width:100%;
+  height:100%;
+  background:#fff;
+  ul.list{
+    width:100%;
+    height:1.5rem;
+    @include flexbox();
+    @include flex-direction(column);
+    margin-top:.03rem;
+    li{
+      @include flexbox();
+      @include flex-direction(row);
+      padding-top: .055rem;
+    }
+    li.listLi0{
+      width:100%;
+      i.pic{
+        width:.2rem;
+        height:.2rem;
+        img{
+          margin-left: .1rem;
+          display: block;
+          width:100%;
+          height:100%;
+          @include border-radius(50%);
+        }
+      }
+      span{
+        color:$bsCoActv;
+        font-size: .008rem;
+        text-indent: .2rem;
+        line-height: .25rem;
+      }
+    }
+    .listLi1{
+      width:100%;
+      span{
+        color:#333;
+        font-size: .006rem;
+        text-indent: .1rem;
+      }
+    }
+    .listLi2{
+      @include flexbox();
+      @include flex-direction(row);
+      @include justify-content(space-around);
+      height:.75rem;
+      i{
+        width:32%;
+        img{
+          width:100%;
+          height:.75rem;
+        }
+      }
+    }
+    .listLi3{
+      @include flexbox();
+      @include flex-direction(row);
+      @include justify-content(space-around);
+      i{
+        font-size: .008rem;
+        color:#999;
+      }
+    }
+  }
+}
