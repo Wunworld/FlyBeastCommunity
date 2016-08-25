@@ -12,12 +12,13 @@ SPA.defineView('community', {
         "delegated",
         {
             name:"avalon",
-            option:function(vm){
-                vm.livelist=[];
+            options:function(vm){
+                vm.livelistCom=[];
                 vm.isShowLoading=true;
             }
         }
-    ],bindEvents:{
+    ],
+    bindEvents:{
         "show":function(){
             var that = this;
             var vm=this.getVM();
@@ -26,16 +27,17 @@ SPA.defineView('community', {
                 fadeScrollBars:true
             });
             $.ajax({
-                url:"/FlyBeastCommunity/mock/livelist.json",
+                url:"/FlyBeastCommunity/mock/livelistCom.json",
                 type:"get",
                 data:{
                     type:"more",
                     pageNo:1
                 },
                 success:function(res){
+                    console.log(11);
                     console.log(res.data);
-                    //vm.livelist = res.data;
-                    myScroll2.refresh();
+                    vm.livelistCom = res.data;
+                    //myScroll2.refresh();
                 }
             });
             //添加滚动事件

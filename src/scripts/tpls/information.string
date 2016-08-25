@@ -31,70 +31,7 @@
                     </div>
                     <div>
                         <h3 ms-text="el.title"></h3>
-                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
-                    </div>
-                </li>
-                <li ms-repeat-el="livelist" >
-                    <div>
-                        <img ms-src="el.listPic" alt="">
-                    </div>
-                    <div>
-                        <h3 ms-text="el.title"></h3>
-                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
-                    </div>
-                </li>
-                <li ms-repeat-el="livelist" >
-                    <div>
-                        <img ms-src="el.listPic" alt="">
-                    </div>
-                    <div>
-                        <h3 ms-text="el.title"></h3>
-                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
-                    </div>
-                </li>
-                <li ms-repeat-el="livelist" >
-                    <div>
-                        <img ms-src="el.listPic" alt="">
-                    </div>
-                    <div>
-                        <h3 ms-text="el.title"></h3>
-                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
-                    </div>
-                </li>
-                <li ms-repeat-el="livelist" >
-                    <div>
-                        <img ms-src="el.listPic" alt="">
-                    </div>
-                    <div>
-                        <h3 ms-text="el.title"></h3>
-                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
-                    </div>
-                </li>
-                <li ms-repeat-el="livelist" >
-                    <div>
-                        <img ms-src="el.listPic" alt="">
-                    </div>
-                    <div>
-                        <h3 ms-text="el.title"></h3>
-                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
-                    </div>
-                </li>
-                <li ms-repeat-el="livelist" >
-                <div>
-                    <img ms-src="el.listPic" alt="">
-                </div>
-                <div>
-                    <h3 ms-text="el.title"></h3>
-                    <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
-                </div>
-            </li>
-                <li ms-repeat-el="livelist" >
-                    <div>
-                        <img ms-src="el.listPic" alt="">
-                    </div>
-                    <div>
-                        <h3 ms-text="el.title"></h3>
-                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico" ms-text="el.flowNum">&#xe608;</i></div>
+                        <div><p ms-text="el.resourceWeb"></p><i class="yo-ico">&#xe608;&nbsp;<span ms-text="el.flowNum"></span></i></div>
                     </div>
                 </li>
             </ul>

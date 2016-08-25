@@ -12,7 +12,7 @@ SPA.defineView('information', {
         "delegated",
         {
             name:"avalon",
-            option:function(vm){
+            options:function(vm){
                 vm.livelist=[];
             }
         }
@@ -20,12 +20,13 @@ SPA.defineView('information', {
 //    绑定视图
     bindEvents:{
         "show":function(){
-        var that = this;
             var vm=this.getVM();
+
             var myScroll=new IScroll("#myScroll",{
                 scrollBars:true,
                 fadeScrollBars:true
             });
+
             $.ajax({
                 url:"/FlyBeastCommunity/mock/livelist.json",
                 type:"get",
@@ -34,9 +35,8 @@ SPA.defineView('information', {
                     pageNo:1
                 },
                 success:function(res){
-                    console.log(res.data);
-                    //vm.livelist = res.data;
-                    myScroll.refresh();
+                    //console.log(res.data);
+                    vm.livelist = res.data;
                 }
             });
             //添加滚动事件

@@ -93,6 +93,7 @@
             width:100%;
             li{
               height:1.12rem;
+              margin-top: .05rem;
               @include flexbox();
               @include flex-direction(row);
               @include justify-content(space-around);
@@ -112,7 +113,9 @@
                 @include justify-content(space-between);
                 h3{
                   font-size: .01rem;
-                  color:#303030;
+                  color:#666;
+                  font-weight:100;
+                  padding-top:.05rem;
                 }
                 div{
                   width:100%;
@@ -126,6 +129,7 @@
                     color:#A7A7A7;
                   }
                   i{
+                    width:20%;
                     font-size: .008rem;
                     color:#A7A7A7;
                   }
@@ -135,7 +139,6 @@
           }
         }
       }
-
     }
   }
 

@@ -41,118 +41,23 @@
             </ul>
         </aside>
         <aside class="cont">
-            <ul class="list">
+            <ul class="list" ms-repeat-el="livelistCom">
                 <li class="listLi0">
-                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
-                    <span>美景海岛-泰国</span>
+                    <i class="pic"><img ms-src="el.titlePic" alt=""></i>
+                    <span ms-text="el.title"></span>
                 </li>
                 <li class="listLi1">
-                    <span>美景海岛-岛-岛-岛-泰国</span>
+                    <span ms-text="el.cont"></span>
                 </li>
                 <li class="listLi2">
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
+                    <i><img ms-src="el.descPic1" alt=""></i>
+                    <i><img ms-src="el.descPic2" alt=""></i>
+                    <i><img ms-src="el.descPic3" alt=""></i>
                 </li>
                 <li class="listLi3">
-                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
-                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
-                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
-                </li>
-            </ul>
-            <ul class="list">
-                <li class="listLi0">
-                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
-                    <span>美景海岛-泰国</span>
-                </li>
-                <li class="listLi1">
-                    <span>美景海岛-岛-岛-岛-泰国</span>
-                </li>
-                <li class="listLi2">
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                </li>
-                <li class="listLi3">
-                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
-                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
-                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
-                </li>
-            </ul>
-            <ul class="list">
-                <li class="listLi0">
-                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
-                    <span>美景海岛-泰国</span>
-                </li>
-                <li class="listLi1">
-                    <span>美景海岛-岛-岛-岛-泰国</span>
-                </li>
-                <li class="listLi2">
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                </li>
-                <li class="listLi3">
-                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
-                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
-                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
-                </li>
-            </ul>
-            <ul class="list">
-                <li class="listLi0">
-                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
-                    <span>美景海岛-泰国</span>
-                </li>
-                <li class="listLi1">
-                    <span>美景海岛-岛-岛-岛-泰国</span>
-                </li>
-                <li class="listLi2">
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                </li>
-                <li class="listLi3">
-                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
-                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
-                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
-                </li>
-            </ul>
-            <ul class="list">
-                <li class="listLi0">
-                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
-                    <span>美景海岛-泰国</span>
-                </li>
-                <li class="listLi1">
-                    <span>美景海岛-岛-岛-岛-泰国</span>
-                </li>
-                <li class="listLi2">
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                </li>
-                <li class="listLi3">
-                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
-                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
-                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
-                </li>
-            </ul>
-            <ul class="list">
-                <li class="listLi0">
-                    <i class="pic"><img src="/FlyBeastCommunity/images/touxiang.jpg" alt=""></i>
-                    <span>美景海岛-泰国</span>
-                </li>
-                <li class="listLi1">
-                    <span>美景海岛-岛-岛-岛-泰国</span>
-                </li>
-                <li class="listLi2">
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                    <i><img src="/FlyBeastCommunity/images/pic.png" alt=""></i>
-                </li>
-                <li class="listLi3">
-                    <i class="yo-ico">&#xe608;&nbsp;<span>333</span></i>
-                    <i class="yo-ico">&#xe618;&nbsp;<span>222</span></i>
-                    <i class="yo-ico">&#xe60e;&nbsp;<span>555</span></i>
+                    <i class="yo-ico">&#xe608;&nbsp;<span ms-text="el.Num1"></span></i>
+                    <i class="yo-ico">&#xe618;&nbsp;<span ms-text="el.Num2"></span></i>
+                    <i class="yo-ico">&#xe60e;&nbsp;<span ms-text="el.Num3"></span></i>
                 </li>
             </ul>
         </aside>
